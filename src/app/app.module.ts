@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { FooterComponent } from './footer/footer.component';
 import { MessageService } from './message.service';
+import { ContactComponent } from './contact/contact.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,10 +16,12 @@ import { MessageService } from './message.service';
     HeaderComponent,
     MainContentComponent,
     FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
   ],
   providers: [MessageService],
   bootstrap: [AppComponent],
