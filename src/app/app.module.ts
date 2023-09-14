@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MessageService } from './message.service';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ProductAddComponent } from './product-add/product-add.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     MainContentComponent,
     FooterComponent,
     ContactComponent,
+    ProductAddComponent,
   ],
   imports: [
     BrowserModule,
